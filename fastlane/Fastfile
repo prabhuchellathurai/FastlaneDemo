@@ -31,5 +31,5 @@ lane :beta do
   #get_certificates( development: true)        
   #get_provisioning_profile   
   build_app(scheme: "FastlaneDemo", export_method:"development")
-  hockey(api_token: "7c223173ffce42cd8be31e29f719f015")
+  hockey(api_token: "a17d38733470464bb3e72a15b30dcaa4")
 end
