@@ -28,7 +28,7 @@ end
 lane :beta do
 	# ...
   build_app
-  hockey(api_token: "[insert_key_here]")
+  hockey(api_token: "7c223173ffce42cd8be31e29f719f015")
 end
 
 
