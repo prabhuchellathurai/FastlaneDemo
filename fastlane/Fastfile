@@ -33,4 +33,6 @@ lane :beta do
   build_app(scheme: "FastlaneDemo", export_method:"development")
   hockey(api_token: "a17d38733470464bb3e72a15b30dcaa4")
   increment_version_number(  bump_type: "patch" )
+increment_version_number(  bump_type: "minor" )
+increment_version_number(  bump_type: "major" )
 end
