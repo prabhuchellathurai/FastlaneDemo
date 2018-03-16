@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FastlaneDemo.xcscheme</key>
+		<key>FastlaneDemo.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F5CE4FBD205B947F00EFE7B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5CE4FD1205B947F00EFE7B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5CE4FDC205B947F00EFE7B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
