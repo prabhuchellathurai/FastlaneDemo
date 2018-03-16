@@ -26,15 +26,9 @@ end
 
 
 lane :beta do
-  hockey(
-		api_token: "7c223173ffce42cd8be31e29f719f015",
-		public_identifier: "7c223173ffce42cd8be31e29f719f015",
-		ipa: "dist/" + ENV["PRODUCT_NAME"] + ".ipa",
-		dsym: "dist/" + ENV["PRODUCT_NAME"] + ".app.dSYM.zip",
-		bundle_identifier:"com.Tringapps.FastlaneDemo",
-		title:"Demo",
-
-	)
+	# ...
+  build_app
+  hockey(api_token: "[insert_key_here]")
 end
 
 
