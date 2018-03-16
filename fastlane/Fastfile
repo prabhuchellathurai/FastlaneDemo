@@ -5,7 +5,8 @@
 #
 #     https://docs.fastlane.tools/actions
 #
-
+#build_app(scheme: "FastlaneDemo", workspace: "FastlaneDemo.xcodeproj", include_bitcode: true)
+#get_certificates( development: true, username:"tringappsdev@gmail.com")
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
@@ -21,15 +22,14 @@ end
 
 
 lane :tests do
-  run_tests(scheme: "FastlaneDemoTests")
+  run_tests(scheme: "FastlaneDemo")
 end
+
 
 
 lane :beta do
-	# ...
-  build_app
+  #get_certificates( development: true)        
+  #get_provisioning_profile   
+  build_app(scheme: "FastlaneDemo", export_method:"development")
   hockey(api_token: "7c223173ffce42cd8be31e29f719f015")
 end
-
-
-
