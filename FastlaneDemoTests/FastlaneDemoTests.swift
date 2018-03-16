@@ -24,6 +24,9 @@ class FastlaneDemoTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let a = 5
+        let i = a
+        assert(i > 5, "Wrong")
     }
     
     func testPerformanceExample() {

@@ -1,0 +1,8 @@
+app_identifier("com.Tringapps.FastlaneDemo") # The bundle identifier of your app
+apple_id("tringappsdev@gmail.com") # Your Apple email address
+
+itc_team_id "210484" # iTunes Connect Team ID
+team_id "8739AQZ43Q" # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
