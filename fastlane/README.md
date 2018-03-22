@@ -29,6 +29,11 @@ fastlane tests
 fastlane ios beta
 ```
 
+### ios CurrentVersion
+```
+fastlane ios CurrentVersion
+```
+
 
 ----
 
